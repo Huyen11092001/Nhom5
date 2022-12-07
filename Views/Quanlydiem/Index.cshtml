@@ -1,0 +1,62 @@
+@model IEnumerable<QUANLYSINHVIEN.Models.Quanlydiem>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Danh sách điểm</h1>
+
+<p>
+    <a asp-action="Create">Thêm điểm</a>
+</p>
+<p>
+    <a asp-action="Upload">Upload New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sothutu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaSV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenmonhoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diem)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+             <td>
+                @Html.DisplayFor(modelItem => item.Sothutu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenmonhoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diem)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Sothutu">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Sothutu">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Sothutu">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
