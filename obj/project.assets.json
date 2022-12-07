@@ -11205,11 +11205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Dropbox\\PC\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
       "projectName": "QUANLYSINHVIEN",
-      "projectPath": "C:\\Users\\Dell\\Dropbox\\PC\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
+      "projectPath": "C:\\Users\\Dell\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Dropbox\\PC\\Documents\\QUANLYSINHVIEN\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\QUANLYSINHVIEN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

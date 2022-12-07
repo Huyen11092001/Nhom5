@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nVKxyPdWNnI1Zp4VFf0QOtSPaJsEwxyswrkFWyEs4L/9NMHG1VMqwHbe62q9I3cdQJwjsrqTYgvQFPB27ZLqXA==",
+  "dgSpecHash": "i/zVAoz1mgWaY6hjUeMGoXQZHEY8rC3tHEfhCorGl4PKjs24v7yoLcrkuY8xCRtuoIfzUJk/EVxf7eA2Hah/Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Dropbox\\PC\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
