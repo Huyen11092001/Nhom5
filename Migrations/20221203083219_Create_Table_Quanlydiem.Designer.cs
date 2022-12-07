@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace QUANLYSINHVIEN.Migrations
 {
     [DbContext(typeof(ApplicationDbcontext))]
-    [Migration("20221128102945_Create_Table_SinhVien")]
-    partial class CreateTableSinhVien
+    [Migration("20221203083219_Create_Table_Quanlydiem")]
+    partial class CreateTableQuanlydiem
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,45 @@ namespace QUANLYSINHVIEN.Migrations
                     b.ToTable("Lop");
                 });
 
+            modelBuilder.Entity("QUANLYSINHVIEN.Models.Qlmh", b =>
+                {
+                    b.Property<string>("Mamonhoc")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Tenmonhoc")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Mamonhoc");
+
+                    b.ToTable("Qlmh");
+                });
+
+            modelBuilder.Entity("QUANLYSINHVIEN.Models.Quanlydiem", b =>
+                {
+                    b.Property<int>("Sothutu")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Diem")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("MaSV")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("TenSV")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Tenmonhoc")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Sothutu");
+
+                    b.ToTable("Quanlydiem");
+                });
+
             modelBuilder.Entity("QUANLYSINHVIEN.Models.SinhVien", b =>
                 {
                     b.Property<string>("MaSV")
@@ -58,38 +97,30 @@ namespace QUANLYSINHVIEN.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("MaLop")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Makhoa")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Tenkhoa")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Tenlop")
-                        .IsRequired()
+                    b.Property<string>("Malop")
                         .HasColumnType("TEXT");
 
                     b.HasKey("MaSV");
 
-                    b.HasIndex("MaLop");
-
                     b.HasIndex("Makhoa");
+
+                    b.HasIndex("Malop");
 
                     b.ToTable("SinhVien");
                 });
 
             modelBuilder.Entity("QUANLYSINHVIEN.Models.SinhVien", b =>
                 {
-                    b.HasOne("QUANLYSINHVIEN.Models.Lop", "Lop")
-                        .WithMany()
-                        .HasForeignKey("MaLop");
-
                     b.HasOne("QUANLYSINHVIEN.Models.Khoa", "Khoa")
                         .WithMany()
                         .HasForeignKey("Makhoa");
+
+                    b.HasOne("QUANLYSINHVIEN.Models.Lop", "Lop")
+                        .WithMany()
+                        .HasForeignKey("Malop");
 
                     b.Navigation("Khoa");
 

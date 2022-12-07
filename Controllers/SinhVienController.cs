@@ -21,9 +21,8 @@ namespace QUANLYSINHVIEN.Controllers
         // GET: SinhVien
         public async Task<IActionResult> Index()
         {
-              return _context.SinhVien != null ? 
-                          View(await _context.SinhVien.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbcontext.SinhVien'  is null.");
+            var applicationDbcontext = _context.SinhVien.Include(s => s.Khoa).Include(s => s.Lop);
+            return View(await applicationDbcontext.ToListAsync());
         }
 
         // GET: SinhVien/Details/5
@@ -35,6 +34,8 @@ namespace QUANLYSINHVIEN.Controllers
             }
 
             var sinhVien = await _context.SinhVien
+                .Include(s => s.Khoa)
+                .Include(s => s.Lop)
                 .FirstOrDefaultAsync(m => m.MaSV == id);
             if (sinhVien == null)
             {
@@ -47,8 +48,8 @@ namespace QUANLYSINHVIEN.Controllers
         // GET: SinhVien/Create
         public IActionResult Create()
         {
-            ViewData["Tenlop"] = new SelectList(_context.Lop,"Malop","Tenlop");
-            ViewData["Tenkhoa"] = new SelectList(_context.Khoa,"Makhoa","Tenkhoa");
+            ViewData["Makhoa"] = new SelectList(_context.Khoa, "Makhoa", "Tenkhoa");
+            ViewData["Malop"] = new SelectList(_context.Lop, "Malop", "Tenlop");
             return View();
         }
 
@@ -57,7 +58,7 @@ namespace QUANLYSINHVIEN.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaSV,Hovaten,Address,Tenlop,Tenkhoa")] SinhVien sinhVien)
+        public async Task<IActionResult> Create([Bind("MaSV,Hovaten,Address,Malop,Makhoa")] SinhVien sinhVien)
         {
             if (ModelState.IsValid)
             {
@@ -65,8 +66,8 @@ namespace QUANLYSINHVIEN.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Tenlop"] = new SelectList(_context.Lop, "Malop", "Tenlop", sinhVien.Tenlop);
-             ViewData["Tenkhoa"] = new SelectList(_context.Khoa, "Makhoa", "Tenkhoa", sinhVien.Tenkhoa);
+            ViewData["Makhoa"] = new SelectList(_context.Khoa, "Makhoa", "Tenkhoa", sinhVien.Makhoa);
+            ViewData["Malop"] = new SelectList(_context.Lop, "Malop", "Tenlop", sinhVien.Malop);
             return View(sinhVien);
         }
 
@@ -83,6 +84,8 @@ namespace QUANLYSINHVIEN.Controllers
             {
                 return NotFound();
             }
+            ViewData["Makhoa"] = new SelectList(_context.Khoa, "Makhoa", "Tenkhoa", sinhVien.Makhoa);
+            ViewData["Malop"] = new SelectList(_context.Lop, "Malop", "Tenlop", sinhVien.Malop);
             return View(sinhVien);
         }
 
@@ -91,7 +94,7 @@ namespace QUANLYSINHVIEN.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("MaSV,Hovaten,Address,Tenlop,Tenkhoa")] SinhVien sinhVien)
+        public async Task<IActionResult> Edit(string id, [Bind("MaSV,Hovaten,Address,Malop,Makhoa")] SinhVien sinhVien)
         {
             if (id != sinhVien.MaSV)
             {
@@ -118,6 +121,8 @@ namespace QUANLYSINHVIEN.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Makhoa"] = new SelectList(_context.Khoa, "Makhoa", "Tenkhoa", sinhVien.Makhoa);
+            ViewData["Malop"] = new SelectList(_context.Lop, "Malop", "Tenlop", sinhVien.Malop);
             return View(sinhVien);
         }
 
@@ -130,6 +135,8 @@ namespace QUANLYSINHVIEN.Controllers
             }
 
             var sinhVien = await _context.SinhVien
+                .Include(s => s.Khoa)
+                .Include(s => s.Lop)
                 .FirstOrDefaultAsync(m => m.MaSV == id);
             if (sinhVien == null)
             {

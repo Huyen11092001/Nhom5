@@ -10,24 +10,24 @@ using QUANLYSINHVIEN.Models.Process;
 
 namespace QUANLYSINHVIEN.Controllers
 {
-    public class QldController : Controller
+    public class QuanlydiemController : Controller
     {
         private readonly ApplicationDbcontext _context;
         private ExcelsProcess _excelProcess = new ExcelsProcess();
-        public QldController(ApplicationDbcontext context)
+        public QuanlydiemController(ApplicationDbcontext context)
         {
             _context = context;
         }
 
-        // GET: Qld
+        // GET: Quanlydiem
         public async Task<IActionResult> Index()
-        {   return View(await _context.Qld.ToListAsync()) ;
-            //   return _context.Qld != null ? 
-            //               View(await _context.Qld.ToListAsync()) :
-            //               Problem("Entity set 'ApplicationDbcontext.Qld'  is null.");
+        {
+              return _context.Quanlydiem != null ? 
+                          View(await _context.Quanlydiem.ToListAsync()) :
+                          Problem("Entity set 'ApplicationDbcontext.Quanlydiem'  is null.");
         }
 
-        //GET: Update
+        //GET: Update file excel
          public async Task<IActionResult>Upload()
         {
             return View();
@@ -59,14 +59,16 @@ namespace QUANLYSINHVIEN.Controllers
                         for (int i=0; i< dt.Rows.Count;i++)
                         {
                             //create a new Customer object
-                            var Qld = new Qld();
+                            var Qld = new Quanlydiem();
                             // set values for attrinutes
-                            Qld.MaSV= dt.Rows[i][0].ToString();
-                            Qld.TenSV= dt.Rows[i][1].ToString();
-                            Qld.Tenmonhoc= dt.Rows[i][2].ToString();
-                            Qld.Diem= dt.Rows[i][3].ToString();
+                            Qld.Sothutu= Convert.ToInt32(dt.Rows[i][0].ToString());
+                            Qld.MaSV= dt.Rows[i][1].ToString();
+                            Qld.TenSV= dt.Rows[i][2].ToString();
+                            Qld.Tenmonhoc= dt.Rows[i][3].ToString();
+                            Qld.Diem= Convert.ToInt32(dt.Rows[i][4].ToString());
+                           
                              //add object to Context
-                             _context.Qld.Add(Qld);
+                             _context.Quanlydiem.Add(Qld);
                         }
                         //save to database 
                         await _context.SaveChangesAsync();
@@ -77,70 +79,70 @@ namespace QUANLYSINHVIEN.Controllers
             return View();
         }
 
-        // GET: Qld/Details/5
-        public async Task<IActionResult> Details(string id)
+        // GET: Quanlydiem/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Qld == null)
+            if (id == null || _context.Quanlydiem == null)
             {
                 return NotFound();
             }
 
-            var qld = await _context.Qld
-                .FirstOrDefaultAsync(m => m.MaSV == id);
-            if (qld == null)
+            var quanlydiem = await _context.Quanlydiem
+                .FirstOrDefaultAsync(m => m.Sothutu == id);
+            if (quanlydiem == null)
             {
                 return NotFound();
             }
 
-            return View(qld);
+            return View(quanlydiem);
         }
 
-        // GET: Qld/Create
+        // GET: Quanlydiem/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Qld/Create
+        // POST: Quanlydiem/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaSV,TenSV,Tenmonhoc,Diem")] Qld qld)
+        public async Task<IActionResult> Create([Bind("Sothutu,MaSV,TenSV,Tenmonhoc,Diem")] Quanlydiem quanlydiem)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(qld);
+                _context.Add(quanlydiem);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(qld);
+            return View(quanlydiem);
         }
 
-        // GET: Qld/Edit/5
-        public async Task<IActionResult> Edit(string id)
+        // GET: Quanlydiem/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Qld == null)
+            if (id == null || _context.Quanlydiem == null)
             {
                 return NotFound();
             }
 
-            var qld = await _context.Qld.FindAsync(id);
-            if (qld == null)
+            var quanlydiem = await _context.Quanlydiem.FindAsync(id);
+            if (quanlydiem == null)
             {
                 return NotFound();
             }
-            return View(qld);
+            return View(quanlydiem);
         }
 
-        // POST: Qld/Edit/5
+        // POST: Quanlydiem/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("MaSV,TenSV,Tenmonhoc,Diem")] Qld qld)
+        public async Task<IActionResult> Edit(int id, [Bind("Sothutu,MaSV,TenSV,Tenmonhoc,Diem")] Quanlydiem quanlydiem)
         {
-            if (id != qld.MaSV)
+            if (id != quanlydiem.Sothutu)
             {
                 return NotFound();
             }
@@ -149,12 +151,12 @@ namespace QUANLYSINHVIEN.Controllers
             {
                 try
                 {
-                    _context.Update(qld);
+                    _context.Update(quanlydiem);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!QldExists(qld.MaSV))
+                    if (!QuanlydiemExists(quanlydiem.Sothutu))
                     {
                         return NotFound();
                     }
@@ -165,49 +167,49 @@ namespace QUANLYSINHVIEN.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(qld);
+            return View(quanlydiem);
         }
 
-        // GET: Qld/Delete/5
-        public async Task<IActionResult> Delete(string id)
+        // GET: Quanlydiem/Delete/5
+        public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Qld == null)
+            if (id == null || _context.Quanlydiem == null)
             {
                 return NotFound();
             }
 
-            var qld = await _context.Qld
-                .FirstOrDefaultAsync(m => m.MaSV == id);
-            if (qld == null)
+            var quanlydiem = await _context.Quanlydiem
+                .FirstOrDefaultAsync(m => m.Sothutu == id);
+            if (quanlydiem == null)
             {
                 return NotFound();
             }
 
-            return View(qld);
+            return View(quanlydiem);
         }
 
-        // POST: Qld/Delete/5
+        // POST: Quanlydiem/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Qld == null)
+            if (_context.Quanlydiem == null)
             {
-                return Problem("Entity set 'ApplicationDbcontext.Qld'  is null.");
+                return Problem("Entity set 'ApplicationDbcontext.Quanlydiem'  is null.");
             }
-            var qld = await _context.Qld.FindAsync(id);
-            if (qld != null)
+            var quanlydiem = await _context.Quanlydiem.FindAsync(id);
+            if (quanlydiem != null)
             {
-                _context.Qld.Remove(qld);
+                _context.Quanlydiem.Remove(quanlydiem);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool QldExists(string id)
+        private bool QuanlydiemExists(int id)
         {
-          return (_context.Qld?.Any(e => e.MaSV == id)).GetValueOrDefault();
+          return (_context.Quanlydiem?.Any(e => e.Sothutu == id)).GetValueOrDefault();
         }
     }
 }
