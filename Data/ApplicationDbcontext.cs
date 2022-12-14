@@ -16,9 +16,16 @@ using QUANLYSINHVIEN.Models;
 
         public DbSet<QUANLYSINHVIEN.Models.Lop> Lop { get; set; } = default!;
 
-        public DbSet<QUANLYSINHVIEN.Models.SinhVien> SinhVien { get; set; } = default!;
-
         public DbSet<QUANLYSINHVIEN.Models.Qlmh> Qlmh { get; set; } = default!;
 
-        public DbSet<QUANLYSINHVIEN.Models.Qld> Qld { get; set; } = default!;
+        public DbSet<QUANLYSINHVIEN.Models.SinhVien> SinhVien { get; set; } = default!;
+
+        public DbSet<QUANLYSINHVIEN.Models.Quanlydiem> Quanlydiem { get; set; } = default!;
+
+      
+
+
+      
+
+       
     }

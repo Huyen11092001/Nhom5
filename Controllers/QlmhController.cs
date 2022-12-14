@@ -62,8 +62,8 @@ namespace QUANLYSINHVIEN.Controllers
                 newMamonhoc = strPro.AutoGenerateCode(Mamonhoc);
             }
             ViewBag.newID = newMamonhoc;
-           // ViewData["Mamonhoc"]=new SelectList (_context.Mamonhoc, "FacultyID", "FacultyName");
             return View(); 
+            // ViewData["Mamonhoc"]=new SelectList (_context.Mamonhoc, "FacultyID", "FacultyName");
         }
 
         // POST: Qlmh/Create

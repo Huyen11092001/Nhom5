@@ -1,4 +1,4 @@
-@model IEnumerable<QUANLYSINHVIEN.Models.Qld>
+@model IEnumerable<QUANLYSINHVIEN.Models.Quanlydiem>
 
 @{
     ViewData["Title"] = "Index";
@@ -9,12 +9,15 @@
 <p>
     <a asp-action="Create">Thêm điểm</a>
 </p>
- <p>
-        <a asp-action="Upload">Upload New</a>
-    </p>
+<p>
+    <a asp-action="Upload">Upload New</a>
+</p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sothutu)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.MaSV)
             </th>
@@ -34,6 +37,9 @@
 @foreach (var item in Model) {
         <tr>
              <td>
+                @Html.DisplayFor(modelItem => item.Sothutu)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.MaSV)
             </td>
             <td>
@@ -46,9 +52,9 @@
                 @Html.DisplayFor(modelItem => item.Diem)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.MaSV">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaSV">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaSV">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Sothutu">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Sothutu">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Sothutu">Delete</a>
             </td>
         </tr>
 }

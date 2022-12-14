@@ -8,16 +8,18 @@ namespace QUANLYSINHVIEN.Models
     [Key]
     [Required(ErrorMessage = "Mã Sinh Viên không được để trống")]
     public string? MaSV{get;set;}
-    [Required(ErrorMessage = "Họ và tên Sinh viên không được để trống")]
+    [Required(ErrorMessage = "Họ và tên Sinh Viên không được để trống")]
     public string? Hovaten { get; set; }
     public string? Address { get; set; }
-    public string Tenlop { get; set; }
-    [ForeignKey("MaLop")]
+    
+    public string? Malop { get; set; }
+     [ForeignKey("Malop")]
     public Lop? Lop { get; set; }
-    public string Tenkhoa { get; set; }
-     [ForeignKey("Makhoa")]
+    public string? Makhoa { get; set; }
+    [ForeignKey("Makhoa")]
     public Khoa? Khoa { get; set; }
-
+    
    
+
 }
 }

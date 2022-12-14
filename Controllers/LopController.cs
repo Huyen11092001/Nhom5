@@ -18,7 +18,7 @@ namespace QUANLYSINHVIEN.Controllers
             _context = context;
         }
 
-        // GET: Lop
+        // GET: Lop sinh mã tự động cho mã lớp
         public async Task<IActionResult> Index()
         {
               return _context.Lop != null ? 

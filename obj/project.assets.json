@@ -11200,26 +11200,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
       "projectName": "QUANLYSINHVIEN",
-      "projectPath": "C:\\Users\\Dell\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\QUANLYSINHVIEN\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
