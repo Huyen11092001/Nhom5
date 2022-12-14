@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 <<<<<<<< HEAD:Views/Quanlydiem/Index.cshtml
 @model IEnumerable<QUANLYSINHVIEN.Models.Quanlydiem>
 ========
 @model IEnumerable<QUANLYSINHVIEN.Models.Diem>
 >>>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3:Views/Diem/Index.cshtml
-=======
-@model IEnumerable<QUANLYSINHVIEN.Models.Quanlydiem>
->>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
 
 @{
     ViewData["Title"] = "Index";
@@ -15,7 +11,6 @@
 <h1>Danh sách Điểm</h1>
 
 <p>
-<<<<<<< HEAD
     <a asp-action="Create">Thêm điểm</a>
 </p>
 <p>
@@ -24,12 +19,6 @@
 ========
     <a asp-action="Upload">Upload Điểm</a>
 >>>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3:Views/Diem/Index.cshtml
-=======
-    <a asp-action="Create">Thêm Điểm</a>
-</p>
-<p>
-    <a asp-action="Upload">Upload New</a>
->>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
 </p>
 <table class="table">
     <thead>
@@ -44,17 +33,10 @@
                 @Html.DisplayNameFor(model => model.TenSV)
             </th>
             <th>
-<<<<<<< HEAD
                 @Html.DisplayNameFor(model => model.TenMH)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DiemMH)
-=======
-                @Html.DisplayNameFor(model => model.Tenmonhoc)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Diem)
->>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
             </th>
             <th></th>
         </tr>
@@ -62,18 +44,12 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-<<<<<<< HEAD
 <<<<<<<< HEAD:Views/Quanlydiem/Index.cshtml
              <td>
                 @Html.DisplayFor(modelItem => item.Sothutu)
             </td>
 ========
 >>>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3:Views/Diem/Index.cshtml
-=======
-             <td>
-                @Html.DisplayFor(modelItem => item.Sothutu)
-            </td>
->>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
             <td>
                 @Html.DisplayFor(modelItem => item.MaSV)
             </td>
@@ -81,17 +57,10 @@
                 @Html.DisplayFor(modelItem => item.TenSV)
             </td>
             <td>
-<<<<<<< HEAD
                 @Html.DisplayFor(modelItem => item.TenMH)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DiemMH)
-=======
-                @Html.DisplayFor(modelItem => item.Tenmonhoc)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Diem)
->>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Sothutu">Edit</a> |

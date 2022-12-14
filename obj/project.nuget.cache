@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "yFJynTkGjh0ZblrE8vmMV/urluLrNNJfgTPRsmAiXIRklhtKg5+rkcztz5uupjWAl+tk3U9a272SuJElgqdCUg==",
+=======
+  "dgSpecHash": "i/zVAoz1mgWaY6hjUeMGoXQZHEY8rC3tHEfhCorGl4PKjs24v7yoLcrkuY8xCRtuoIfzUJk/EVxf7eA2Hah/Xg==",
+>>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
   "expectedPackageFiles": [

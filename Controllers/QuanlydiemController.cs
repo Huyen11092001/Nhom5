@@ -27,8 +27,12 @@ namespace QUANLYSINHVIEN.Controllers
                           Problem("Entity set 'ApplicationDbcontext.Quanlydiem'  is null.");
         }
 
+<<<<<<< HEAD
 
         //GET: Update
+=======
+        //GET: Update file excel
+>>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
          public async Task<IActionResult>Upload()
         {
             return View();

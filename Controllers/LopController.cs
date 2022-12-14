@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QUANLYSINHVIEN.Models;
+using QUANLYSINHVIEN.Models.Process;
 
 namespace QUANLYSINHVIEN.Controllers
 {
     public class LopController : Controller
     {
         private readonly ApplicationDbcontext _context;
+        private StringProcess strPro = new StringProcess();
 
         public LopController(ApplicationDbcontext context)
         {
@@ -47,7 +49,16 @@ namespace QUANLYSINHVIEN.Controllers
         // GET: Lop/Create
         public IActionResult Create()
         {
-            return View();
+            var newMaLop= "ML001";
+            var countLop = _context.Lop.Count();
+            if(countLop>0)
+            {
+                var MaLop = _context.Lop.OrderByDescending(m =>m.Malop).First().Malop;
+                // sinh ma tu dong
+                newMaLop = strPro.AutoGenerateCode(MaLop);
+            }
+            ViewBag.newLop = newMaLop;
+            return View(); 
         }
 
         // POST: Lop/Create

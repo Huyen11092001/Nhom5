@@ -11212,7 +11212,11 @@
       "outputPath": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
       ],
       "originalTargetFrameworks": [
         "net7.0"
