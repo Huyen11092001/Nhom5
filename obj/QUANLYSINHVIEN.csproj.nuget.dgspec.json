@@ -1,29 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj": {}
+    "D:\\Phát triển phần mềm quản lý\\Nhom5\\QUANLYSINHVIEN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj": {
+    "D:\\Phát triển phần mềm quản lý\\Nhom5\\QUANLYSINHVIEN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
+        "projectUniqueName": "D:\\Phát triển phần mềm quản lý\\Nhom5\\QUANLYSINHVIEN.csproj",
         "projectName": "QUANLYSINHVIEN",
-        "projectPath": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\QUANLYSINHVIEN.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\QUANLYSINHVIEN\\obj\\",
+        "projectPath": "D:\\Phát triển phần mềm quản lý\\Nhom5\\QUANLYSINHVIEN.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\Phát triển phần mềm quản lý\\Nhom5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

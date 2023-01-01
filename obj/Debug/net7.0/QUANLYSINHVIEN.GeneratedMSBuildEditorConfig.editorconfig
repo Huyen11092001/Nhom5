@@ -9,304 +9,141 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QUANLYSINHVIEN
 build_property.RootNamespace = QUANLYSINHVIEN
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\Admin\Documents\QUANLYSINHVIEN\
+build_property.ProjectDir = D:\Phát triển phần mềm quản lý\Nhom5\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Documents\QUANLYSINHVIEN
+build_property.MSBuildProjectDirectory = D:\Phát triển phần mềm quản lý\Nhom5
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Home/Index.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Home/Privacy.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Khoa/Create.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Khoa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Khoa/Delete.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Khoa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Khoa/Details.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Khoa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Khoa/Edit.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Khoa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Khoa/Index.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Khoa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Lop/Create.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Lop/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Lop/Delete.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Lop/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Lop/Details.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Lop/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Lop/Edit.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Lop/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Lop/Index.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Lop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Qlmh/Create.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Qlmh/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Qlmh/Delete.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Qlmh/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Qlmh/Details.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Qlmh/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Qlmh/Edit.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Qlmh/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Qlmh/Index.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Qlmh/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Quanlydiem/Create.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Quanlydiem/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Quanlydiem/Delete.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Quanlydiem/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Quanlydiem/Details.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Quanlydiem/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Quanlydiem/Edit.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Quanlydiem/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Quanlydiem/Index.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Quanlydiem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Quanlydiem/Upload.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Quanlydiem/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Shared/Error.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/SinhVien/Create.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/SinhVien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/SinhVien/Delete.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/SinhVien/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/SinhVien/Details.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/SinhVien/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/SinhVien/Edit.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/SinhVien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/SinhVien/Index.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/SinhVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/_ViewImports.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/_ViewStart.cshtml]
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Documents/QUANLYSINHVIEN/Views/Shared/_Layout.cshtml]
-=======
-build_property.ProjectDir = C:\Users\Dell\QUANLYSINHVIEN\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dell\QUANLYSINHVIEN
-build_property._RazorSourceGeneratorDebug = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Diem/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Diem/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Diem/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Diem/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Diem/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Diem/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVxVcGxvYWQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Khoa/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Khoa/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Khoa/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Khoa/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Khoa/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Lop/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Lop/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Lop/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Lop/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Lop/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Qlmh/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Qlmh/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Qlmh/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Qlmh/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Qlmh/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUWxtaFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Quanlydiem/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Quanlydiem/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Quanlydiem/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Quanlydiem/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Quanlydiem/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Quanlydiem/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5ZGllbVxVcGxvYWQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/SinhVien/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/SinhVien/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/SinhVien/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/SinhVien/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/SinhVien/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/QUANLYSINHVIEN/Views/Shared/_Layout.cshtml]
->>>>>>> 4e57f067c96a626f17d3eca6abcb79749109e5f3
+[D:/Phát triển phần mềm quản lý/Nhom5/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9pfp7rvmgo

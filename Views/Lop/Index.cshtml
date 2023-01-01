@@ -9,6 +9,12 @@
 <p>
     <a asp-action="Create">Thêm Lớp</a>
 </p>
+<form asp-controller="Lop" asp-action="Index">
+    <p>
+        Tìm kiếm: <input type="text" name="SearchString" />
+        <input type="submit" value="Submit" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
